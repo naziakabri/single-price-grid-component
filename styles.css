@@ -1,0 +1,210 @@
+body{
+    font-family: 'Karla', sans-serif;
+    width: 1440px;
+    height: 1440px;
+    
+}
+
+.white{
+    background-color: white;
+    padding-top: 55px;
+    padding-left: 50px; 
+    display: block;  
+}
+.head-white{
+    font-family: 'karla';
+    color:  hsl(179, 62%, 43%);
+    font-weight: 700;
+    font-size: 100px;
+    padding-bottom: 20px;
+    
+}
+.sub-white{
+    font-family: 'karla';
+    color:hsl(71, 73%, 54%) ;
+    font-weight: 400;
+    font-size: 30px;
+    padding-bottom: 10px;  
+}
+.p-white{
+    font-family: 'karla';
+    color: hsl(203, 13%, 73%);
+   width: 1000px;
+    font-size: 30px;
+    line-height: 2rem;
+    margin-bottom: 50px;
+    
+}
+.cyan{
+    background-color:hsl(179, 62%, 43%) ;
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-right: 30px; 
+    display: inline-block;
+    height: 410px;
+    width: 710px;
+    line-height: 6rem;
+    position: relative;
+    bottom: 8px;
+}
+.head-cyan{
+    font-family: 'karla';
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+}
+.price{
+    font-family: 'karla';
+    color: white;
+    display: inline;
+    font-size: 40px;
+}
+.pm{
+    font-family: 'karla';
+    color: rgba(255, 255, 255, 0.863);
+    display: inline;
+    position: relative;
+    bottom: 7px;
+    left: 5px;
+    font-size: 20px;
+}
+.p-cyan{
+    font-family: 'karla';
+    color: rgba(255, 255, 255, 0.774);
+    font-size: 40px;
+    font-weight: 100;
+    position: relative;
+    bottom: 30px;
+    
+}
+.button{
+    background-color: hsl(71, 73%, 54%);
+}
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px hsl(71, 73%, 54%);
+	background:linear-gradient(to bottom, hsl(71, 73%, 54%) 5%, hsl(71, 73%, 54%) 100%);
+    background-color: hsl(71, 73%, 54%);
+	border-radius:6px;
+	border:1px solid hsl(71, 73%, 54%);
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'karla';
+	font-size:15px;
+	font-weight:bold;
+	padding: 0;
+    text-shadow:0px 1px 0px hsl(71, 73%, 54%);
+    width: 600px;
+   height: 70px; 
+    margin-bottom: 25px;
+}
+.sbtn{
+    position: relative;
+    bottom: 13px;
+}
+.gb{
+    background-color:hsl(179, 39%, 60%) ;
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-right: 30px; 
+    display: inline-block;
+    height: 410px;
+    width: 710px;
+    line-height: 2rem;
+    margin-left: -4px;
+    position: relative;
+    bottom: 6px;
+}
+.head-gb{
+    font-family: 'karla';
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+.p-gb{
+    font-family: 'karla';
+    color: rgba(255, 255, 255, 0.822);
+    font-size: 40px;
+    line-height: 1.25rem;
+}
+@media only screen and (max-width:500px){
+    body{
+        height: 375px;
+        width: 375px;
+    }
+    .white{
+        padding-top: 25px;
+        padding-left: 25px;
+    }
+    .head-white{
+        font-size: 30px;
+        padding-bottom: 5px;
+    }
+    .sub-white{
+        width: 400px;
+        font-size: 23px;
+        padding-bottom: 5px;
+    }
+    .p-white{
+        width: 400px;
+        font-size: 20px;
+        line-height:2rem;
+        margin-bottom: 40px;
+    }
+    .cyan{
+        padding-left: 25px;
+        padding-top: 20px;
+        padding-right: 15px;
+        display: block;
+        height: 300px;
+        width: 480px;
+        line-height: 4rem;
+    }
+    .head-cyan{
+        font-size: 30px;
+    }
+    .price{
+        font-size: 35px;
+    }
+    .pm{
+        font-size: 20px;
+    }
+    .p-cyan{
+        font-size: 25px;
+        position: relative;
+    }
+    .myButton{
+        font-size: 20px;
+        width: 400px;
+        height: 50px;
+    }
+    .sbtn{
+         position: relative;
+         bottom: 6px;
+    }
+    .gb{
+        padding-left: 25px;
+        padding-top: 20px;
+        padding-right: 15px;
+        display: block;
+        height: 300px;
+        width: 480px;
+        line-height: 1rem;
+        margin-top: -4px;
+    }
+    .head-gb{
+        font-size: 30px;
+        padding-bottom: 20px;
+
+    }
+    .p-gb{
+        font-size: 30px;
+        line-height: 1rem;
+    }
+
+
+}
+
+
+
